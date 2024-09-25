@@ -1,0 +1,82 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: MediumOpenSans;
+    src: url(OpenSans_Condensed-Medium.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-subtitle{
+    margin-bottom: 100px;
+    font-size: 12px;
+    font-weight: 250;
+    letter-spacing: 5px;
+    font-family: MediumOpenSans;
+}
+
+.section0-title{
+    font-size: 40px;
+}
+.section0-title-paragrap{
+    font-size: 15px;
+    font-weight:400;
+    font-family: OpenSans;
+}
+
+.main-heading{
+    text-align: center;
+}
+
+.section-0{
+    padding: 0 15px;
+    padding-top: 40px;
+    width: 100wh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background:  url("section0-bg.png") center center no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+.nav-ul{
+    display:flex;
+    gap:50px;
+}
+
+.nav-ul li a{
+    color:#48555B;
+    font-family: MediumOpenSans;
+}
+
+.nav-container{
+    display:flex;
+    justify-content: space-between;
+   max-width:970px;
+   margin: 0 auto;
+   padding: 20px 15px;
+}
+
+.our-story{
+    text-align: center;
+    margin-bottom: 90px;
+    margin-top: 45px;
+    color:#48555B;
+}
