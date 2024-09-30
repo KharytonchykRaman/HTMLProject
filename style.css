@@ -1,11 +1,26 @@
 @font-face {
-    font-family: OpenSans;
-    src: url(OpenSans-Light.ttf);
+    font-family: OpenSansSemiBold;
+    src: url(OpenSans-SemiBold.ttf);
 }
 
 @font-face {
-    font-family: MediumOpenSans;
-    src: url(OpenSans_Condensed-Medium.ttf);
+    font-family: OpenSansRegular;
+    src: url(OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSansBold;
+    src: url(OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: OpenSansExtraBold;
+    src: url(OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(BebasNeue-Regular.ttf);
 }
 
 *{
@@ -26,16 +41,19 @@ a{
     font-size: 12px;
     font-weight: 250;
     letter-spacing: 5px;
-    font-family: MediumOpenSans;
+    font-family: OpenSansSemiBold;
 }
 
 .section0-title{
-    font-size: 40px;
+    font-size: 60px;
+    font-weight:1;
+    letter-spacing: 6px;
+    font-family: BebasNeue;
 }
-.section0-title-paragrap{
-    font-size: 15px;
+.section0-title-paragraph{
+    font-size: 18px;
     font-weight:400;
-    font-family: OpenSans;
+    font-family: OpenSansSemiBold;
 }
 
 .main-heading{
@@ -45,8 +63,7 @@ a{
 .section-0{
     padding: 0 15px;
     padding-top: 40px;
-    width: 100wh;
-    min-height: 100vh;
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -59,24 +76,96 @@ a{
 .nav-ul{
     display:flex;
     gap:50px;
+    font-size: 14px;
 }
 
 .nav-ul li a{
     color:#48555B;
-    font-family: MediumOpenSans;
+    font-family: OpenSansSemiBold;
 }
 
 .nav-container{
     display:flex;
     justify-content: space-between;
-   max-width:970px;
-   margin: 0 auto;
+    max-width:1050px;
+    margin : auto;
    padding: 20px 15px;
 }
 
 .our-story{
     text-align: center;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
     margin-top: 45px;
     color:#48555B;
+    font-family: OpenSansBold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+hr {
+    width: 50px;
+    margin: 10px auto;
+    border: 1px solid #00A4E5;
+  }
+
+.container-about-us{
+    max-width:1050px; 
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-imgbox-1{
+    background-image: url(we-plan.png);
+    height: 90%;
+    padding: 5px;
+    width:150px;
+    background-size: cover;
+}
+
+.about-imgbox-2{
+    background-image: url(we-manage.png) ;
+    height: 90%;
+    padding: 5px;
+    width:150px;
+    background-size: cover;
+}
+
+.about-imgbox-3{
+    background-image: url(we-build.png);
+    height: 90%;
+    padding: 5px;
+    width:150px;
+    background-size: cover;
+}
+
+.section-1-textbox{
+    width:420px;
+}
+
+.section-1-imagebox{
+    display:flex;
+    align-items:flex-end;
+    gap:25px;
+    color:white;
+    font-family: OpenSansExtraBold;
+}
+
+.section-1-heading{
+    font-family: OpenSansBold;
+    font-size: 22px;
+    color:#48555B;
+}
+
+.Konstruct-aqua{
+    color:#00A4E5;
+}
+
+.section-1-paragraph{
+    font-family: OpenSansregular;
+    font-size: 14px;
+    color:#48555B;
+    margin-top: 25px;
+    line-height: 1.65;
 }
