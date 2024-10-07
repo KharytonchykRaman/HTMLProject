@@ -26,6 +26,7 @@
 *{
     margin:0;
     padding:0;
+    scroll-behavior: smooth;
 }
 
 ul{
@@ -34,6 +35,10 @@ ul{
 
 a{
     text-decoration: none;
+}
+
+button{
+    cursor:pointer;
 }
 
 .header-subtitle{
@@ -90,6 +95,16 @@ a{
     max-width:1050px;
     margin : auto;
    padding: 20px 15px;
+}
+
+.nav-ul a:hover{
+    transition: all 0.3s ease 0s;
+    color:#00A4E5;
+}
+
+.nav-ul a{
+    color:#48555B;
+    transition: all 0.3s ease 0s;
 }
 
 .our-story{
@@ -355,4 +370,95 @@ font-size: 22px;
         padding: 10px 30px;
         font-size: 14px;
         width: 170px;
+}
+
+footer{
+    background-color: #141A20;
+}
+
+.footer-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    max-width:1050px; 
+    margin: auto;
+    padding: 40px 0px;
+    color:white;
+    font-family: OpenSansRegular;
+    font-size: 11px;
+    letter-spacing: 0.7px;
+}
+
+@media (max-width: 1100px) {
+    .footer-container {
+      padding: 40px 10px;
+      gap:5px;
+    }
+  }
+
+@media (min-width: 800px) {
+    .footer-company-paragraph {
+        width:15vw;
+    }
+  }
+
+@media (max-width: 800px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      gap:40px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .footer ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .footer-company-ul {
+      padding: 10px 30px;
+    }
+  }
+
+.footer-container a{
+    color:white;
+    font-family: OpenSansSemiBold;
+}
+
+.footer-company-paragraph{
+    line-height: 1.7;
+}
+
+.footer ul{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.heading-paragraph{
+    margin-bottom: 8px;
+}
+
+.footer-social-media{
+    display: flex;
+    gap:30px;
+    margin-top: 3%;
+}
+
+.footer-section{
+    background-color: #171819;
+    padding: 20px;
+    color:white;
+    font-size: 12px;
+    font-family: OpenSansRegular;
+    letter-spacing: 0.85px;
+    display: flex;
+    justify-content: center;
 }
