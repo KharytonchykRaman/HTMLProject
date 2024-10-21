@@ -5,165 +5,239 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>РУМТИБЕТ</title>
     <link rel="stylesheet" href="style.css">
-    <title>KONSTRUCT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <section class="section-0" id="section-0">
-        <a href=""><img src="projeco-logo.png" alt="" class="logo"></a>
-        <div class="main-heading">
-            <h1 class="section0-title">PARTNER WITH KONSTRUCT</h1>
-            <p class="section0-title-paragraph">An award-winning construction management firm</p>
-        </div>
-        <h6 class="header-subtitle">SCROLL DOWN</h6>
-    </section>
-
-    <header class="header" id="header">
-        <nav class="nav">
-            <div class="nav-container">
-                <a href="#header"><img src="projeco-logo-black.png" alt="" class="logo"></a>
+    <header class="header">
+        <div class="header-container">
+            <nav>
+                <div class="logo">
+                    <a href=""><img src="logo.png" alt=""></a>
+                    <a href=""><img src="logo-text.png" alt=""></a>
+                </div>
                 <ul class="nav-ul">
-                    <li><a href="#section-0">HOME</a></li>
-                    <li><a href="#section-1">ABOUT</a></li>
-                    <li><a href="#section-2">SERVICES</a></li>
-                    <li><a href="#section-3">WORK</a></li>
-                    <li><a href="#footer">CONTACT</a></li>
+                    <li><a href="">Главная</a></li>
+                    <li><a href="">Про гида</a></li>
+                    <li><a href="">Программа тура</a></li>
+                    <li><a href="">Стоимость</a></li>
+                    <li><a href="">Блог</a></li>
+                    <li><a href="">Контакты</a></li>
                 </ul>
+                <button class="nav-button">Консультация</button>
+            </nav>
+            <div class="header-section">
+                <h1 class="header-heading">Насладись прогулкой в горах с командой единомышленников</h1>
+                <div class="header-search">
+                    <form class="location-form">
+                        <select name="tour-location" id="tour-location-select">
+                            <option value="">Локация для тура</option>
+                            <option value="">Россия</option>
+                            <option value="">США</option>
+                            <option value="">Великобритания</option>
+                        </select>
+                        <label for="tour-location-select">выберите из списка</label>
+                    </form>
+                    <form class="date-form">
+                        <input type="date" id="date-select" name="trip-start">
+                        <label for="date-select">укажите диапазон</label>
+                    </form>
+                    <form class="members-form">
+                        <select name="members-number" id="members-number-select">
+                            <option value="">Участники</option>
+                            <option value="">4 человека</option>
+                            <option value="">5 человек</option>
+                            <option value="">6 человек</option>
+                            <option value="">7 и более человек</option>
+                        </select>
+                        <label for="members-number-select">минимум 4 человека</label>
+                    </form>
+                    <button class="header-search-button">Найти программу</button>
+                </div>
             </div>
-        </nav>
+        </div>
     </header>
 
     <main class="main">
-        <section class="section-1" id="section-1">
-            <h2 class="our-story">OUR STORY
-                <hr>
-            </h2>
+        <section class="section-1">
             <div class="section-1-container">
+                <div class="section-1-imgbox">
+                    <img src="Rectangle 5.png" alt="">
+                </div>
                 <div class="section-1-textbox">
-                    <h2 class="section-1-heading">Founded in 2011 by John Mathew Smith, <span
-                            class="Konstruct-aqua">Konstruct</span> has become the number one construction
-                        management firm</h2>
-                    <p class="section-1-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                        nonummy nibh euismod tincidunt
-                        ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
-                </div>
-                <div class="section-1-imagebox">
-                    <div class="about-imgbox-1">
-                        <h3 class="about-imgbox-text">WE<br>PLAN</h3>
-                    </div>
-                    <div class="about-imgbox-2">
-                        <h3 class="about-imgbox-text">WE<br>MANAGE</h3>
-                    </div>
-                    <div class="about-imgbox-3">
-                        <h3 class="about-imgbox-text">WE<br>BUILD</h3>
-                    </div>
+                    <p class="section-1-preheading">
+                        о нашем подходе
+                    </p>
+                    <h1 class="section-1-heading">
+                        Исследуйте все горные массивы мира вместе с нами
+                    </h1>
+                    <p class="section-1-paragraph">
+                        Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух
+                        тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат
+                        Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в
+                        классической латинской литературе.
+                    </p>
+                    <button class="section-1-button">
+                        Программа тура
+                    </button>
                 </div>
             </div>
         </section>
 
-        <section class="section-2" id="section-2">
-            <div class="services-container">
-                <div class="container-services-textbox">
-                    <h2 class="section-2-heading">OUR CAPABILITIES
-                        <hr class="hr-section-2">
-                    </h2>
-                    <p class="section-2-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                        nonummy nibh euismod tincidunt
-                        ut laoreet dolore magna aliquam erat.</p>
-                    <button class="services-button">ALL SERVICES</button>
+        <section class="section-2">
+            <div class="section-2-container">
+                <div class="section-2-textbox">
+                    <div class="section-2-header">
+                        <p class="section-2-preheading">
+                            наше предложение
+                        </p>
+                        <h1 class="section-2-heading">
+                            Лучшие программы для тебя
+                        </h1>
+                    </div>
+                    <p class="section-2-paragraph">
+                        Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух
+                        тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа.
+                    </p>
+                    <div class="section-2-group">
+                        <img src="Group 16.png" alt="">
+                        <div class="section-2-group-text">
+                            <h3>Опытный гид</h3>
+                        <p>Для современного мира базовый вектор развития предполагает независимые способы реализации
+                            соответствующих условий активизации.</p>
+                        </div>
+                    </div>
+                    <div class="section-2-group">
+                        <img src="Group 17.png" alt="">
+                        <div class="section-2-group-text">
+                        <h3>Безопасный поход</h3>
+                        <p>Для современного мира базовый вектор развития предполагает независимые способы реализации
+                            соответствующих условий активизации.</p>
+                        </div>
+                    </div>
+                    <div class="section-2-group">
+                        <img src="Group 18.png" alt="">
+                        <div class="section-2-group-text">
+                        <h3>Лояльные цены</h3>
+                        <p>Для современного мира базовый вектор развития предполагает независимые способы реализации
+                            соответствующих условий активизации.</p>
+                        </div>
+                    </div>
+                    <button class="section-2-button">
+                        Стоимость программ
+                    </button>
                 </div>
-                <div class="container-services-items">
-                    <div class="services-item">
-                        <img src="management.png" alt="">
-                        <h3 class="service-item-heading">PROJECT AND CONSTRUCTION MANAGEMENT</h3>
-                        <p class="service-item-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                            diam nonummy nibh euismod
-                            tincidunt ut laoreet dolore magna aliquam erat.</p>
-                    </div>
-                    <div class="services-item">
-                        <img src="maintance.png" alt="">
-                        <h3 class="service-item-heading">STRUCTURE AUDIT AND MAINTENANCE</h3>
-                        <p class="service-item-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                            diam nonummy nibh euismod
-                            tincidunt ut laoreet dolore magna aliquam erat.</p>
-                    </div>
-                    <div class="services-item">
-                        <img src="modeling.png" alt="">
-                        <h3 class="service-item-heading">FACTORY CONSTRUCTION AND MODELING</h3>
-                        <p class="service-item-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                            diam nonummy nibh euismod
-                            tincidunt ut laoreet dolore magna aliquam erat.</p>
-                    </div>
+                <div class="section-2-imgbox">
+
                 </div>
             </div>
-
         </section>
 
-        <section class="section-3" id="section-3">
-            <div class="work-container">
-                <h2 class="section-3-heading">Want to build<br>something amazing?</h2>
-                <button class="work-button">GET IN TOUCH</button>
+        <section class="section-3">
+            <div class="section-3-container">
+                <p class="section-3-preheading">по версии отдыхающих</p>
+                <h3 class="section-3-heading">Популярные направления</h3>
+                <div class="section-3-imgbox">
+
+                </div>
+                <button class="section-3-button">
+                    Рейтинг направлений
+                </button>
             </div>
         </section>
 
-        <section class="contact">
-            <div class="container-contact">
-                <h2 class="contact-heading">Newsletter Signup</h2>
-                <form action="" class="contact-form">
-                    <input type="email" class="contact-input" placeholder="test@youremail.com">
-                    <button class="contact-button">SIGNUP</button>
-                </form>
+        <section class="section-4">
+            <div class="section-4-container">
+                <p class="section-4-preheading">делимся впечатлениями</p>
+                <h3 class="section-4-heading">Блог о путешествиях</h3>
+                <div class="section-4-imgbox">
+
+                </div>
+                <button class="section-4-button">
+                    Другие материалы
+                </button>
+        </section>
+
+        <section class="section-5">
+            <div class="section-5-container">
+                <p class="section-5-preheading">фото-отчет</p>
+                <h3 class="section-5-heading">Делимся впечатлениями</h3>
+                <div class="section-5-imgbox">
+
+                </div>
+                <button class="section-5-button">
+                    Наш pinterest
+                </button>
+        </section>
+
+        <section class="section-6">
+            <div class="section-6-container">
+                <div class="section-6-header">
+                    <p class="section-6-preheading">актуально</p>
+                    <h4 class="section-6-heading">Получайте полезные рассылки о путешествиях</h4>
+                </div>
+                <div class="section-6-email">
+                    <form action="">
+                        <label for="email">Введите e-mail адрес</label>
+                        <input type="email" name="email" id="email" autocomplete="email" placeholder="name@domain.com">
+                        <button type="submit">Подписаться на новости</button>
+                        <label>подписываясь на новости, вы автоматически соглашаетесь с <span>условиями обработки
+                                персональных
+                                данных</span> и <span>правилами рекламных рассылок</span></label>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer" id="footer">
+    <footer class="footer">
         <div class="footer-container">
-        <ul class="footer-company-ul">
-            <li><p class="heading-paragraph">COMPANY</p></li>
-            <li><img src="projeco-logo.png" alt=""></li>
-            <li><p class="footer-company-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p></li>
-        </ul>
-
-        <ul>
-            <li><p class="heading-paragraph">LINKS</p></li>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">SERVICES</a></li>
-            <li><a href="">PROJECTS</a></li>
-            <li><a href="">CONTACT US</a></li>
-        </ul>
-
-        <ul>
-            <li><a href="">FAQ</a></li>
-            <li><a href="">TERMS</a></li>
-            <li><a href="">CAREERS</a></li>
-        </ul>
-
-        <ul>
-            <li><a href="">BLOG</a></li>
-            <li><a href="">PARTNERS</a></li>
-            <li><a href="">NEWS</a></li>    
-        </ul>
-
-        <ul>
-            <li><p class="heading-paragraph">CONTACT US</p></li>
-            <li><p>213 Baker Street<br>Oriel City Kounty<br>7000 KNW,<br>Kountry Name</p></li>
-            <li><p>+23 994 233 4022</p></li>
-            <li><p>info@konstruct.com</p></li>
-        </ul>
-
-        <div class="footer-social-media">
-            <a href=""><img src="facebook.png" alt=""></a>
-            <a href=""><img src="twitter.png" alt=""></a>
-            <a href=""><img src="google.png" alt=""></a>
+            <div class="footer-about">
+                <h5></h5>
+                <p></p>
+                <div class="footer-about-contact">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="footer-about-social-media">
+                    <a href=""><img src="" alt=""></a>
+                    <a href=""><img src="" alt=""></a>
+                    <a href=""><img src="" alt=""></a>
+                    <a href=""><img src="" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-services">
+                <h5></h5>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <div class="footer-FAQ">
+                <h5></h5>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-        <section class="footer-section"><p>© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p></section>
+        <div class="footer-bottom">
+            <p>ИП Константинопольский К.К., 2023</p>
+            <p>Политика обработки персональных данных</p>
+        </div>
     </footer>
-
 </body>
 
 </html>
